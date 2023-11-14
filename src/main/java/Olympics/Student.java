@@ -1,4 +1,5 @@
-import java.util.ArrayList;
+package Olympics;
+
 import java.util.List;
 
 class Student {

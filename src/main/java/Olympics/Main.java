@@ -1,3 +1,7 @@
+package Olympics;
+
+import Olympics.Student;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -11,7 +15,7 @@ public class Main {
 
         winners(students);
     }
-    public static void winners(@org.jetbrains.annotations.NotNull List<Student> students) {
+    public static void winners(List<Student> students) {
         students.sort((s1, s2) -> Double.compare(s2.calculateAverageScore(), s1.calculateAverageScore()));
 
         System.out.println("Победители:");
